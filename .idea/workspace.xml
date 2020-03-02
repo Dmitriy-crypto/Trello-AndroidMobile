@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="12944dfb-8012-4329-90b0-7371ce519564" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/OpenApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/OpenApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/SessionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Trello_qa22-roman" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wiki_mob_qa23" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +60,19 @@
       <recent name="com.telran.trello" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.testLogin">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Trello-AndroidMobile.test" />
       <extension name="coverage">
@@ -94,8 +114,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.testLogin" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +131,19 @@
       <updated>1582383783537</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1817" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582916192121">

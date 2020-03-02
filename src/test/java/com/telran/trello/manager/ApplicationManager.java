@@ -23,7 +23,7 @@ public class ApplicationManager {
         capabilities.setCapability("appPackage", "com.trello");
         capabilities.setCapability("appActivity", ".home.HomeActivity");
         capabilities.setCapability("app",
-                "C:/Users/romic/Downloads/Trello_new.apk");
+                "C:/Users/Elena/Dropbox/Tel-ran/Mobile/apk/Trello_new.apk");
 
         driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 

@@ -9,15 +9,16 @@ public class LoginTest extends TestBase {
     public void testLogin() throws InterruptedException {
         app.getSession().firstLoginButton();
         app.getSession().pause(6000);
-        app.getSession().fillLogInForm(new User().withUserName("romich87").withPassword("romanich1987"));
+        app.getSession().fillLogInForm(new User().withUserName("rochmanelena").withPassword("12345.com"));
         app.getSession().tapLoginButton();
-        app.getSession().pause(8000);
-        app.getSession().button1();
-        app.getSession().pause(8000);
-        app.getSession().clickOnName();
-        app.getSession().pause(8000);
 
-        Assert.assertTrue(app.getPage().isTaskPresent());
+        app.getSession().pause(20000);
+        app.getSession().confirmAtlassianLogin(new User().withUserName("rochman.elena@gmail.com").withPassword("12345.com"));
+//        app.getSession().pause(8000);
+//        app.getSession().clickOnName();
+//        app.getSession().pause(8000);
+//
+//        Assert.assertTrue(app.getPage().isTaskPresent());
     }
 
 
