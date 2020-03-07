@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12944dfb-8012-4329-90b0-7371ce519564" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/HelperBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/SessionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/TrelloPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/manager/TrelloPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/telran/trello/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/telran/trello/tests/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/TrelloPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/manager/TrelloPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wiki_mob_qa23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trello-selenium-tests-Rochman" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +73,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.WelcomePageTest.testSwipeWelcomePage">
+    <configuration name="BoardCreationTests.testBoardSwipe" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Trello-AndroidMobile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.trello.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.trello.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.trello.tests.BoardCreationTests" />
+      <option name="METHOD_NAME" value="testBoardSwipe" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Trello-AndroidMobile.test" />
       <extension name="coverage">
@@ -108,14 +127,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Trello-AndroidMobile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.trello.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.trello.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.trello.tests.OpenApp" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcomePageTest.testSwipeWelcomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Trello-AndroidMobile.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.trello.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.trello.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.trello.tests.WelcomePageTest" />
+      <option name="METHOD_NAME" value="testSwipeWelcomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.LoginTest.testLogin" />
+      <item itemvalue="TestNG.BoardCreationTests.testBoardSwipe" />
+      <item itemvalue="TestNG.OpenApp" />
+      <item itemvalue="TestNG.WelcomePageTest.testSwipeWelcomePage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.WelcomePageTest.testSwipeWelcomePage" />
+        <item itemvalue="TestNG.OpenApp" />
+        <item itemvalue="TestNG.BoardCreationTests.testBoardSwipe" />
         <item itemvalue="TestNG.LoginTest.testLogin" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,5 +262,16 @@
       <screen x="1680" y="0" width="1366" height="728" />
     </state>
     <state x="2093" y="133" key="extract.method.dialog/0.0.1680.1010/1680.0.1366.728@1680.0.1366.728" timestamp="1582907460519" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/telran/trello/tests/WelcomePageTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
